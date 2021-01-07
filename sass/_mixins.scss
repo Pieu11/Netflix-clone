@@ -1,0 +1,4 @@
+@mixin gridColumn($columns) {
+    display: grid;
+    grid-template-columns: repeat($columns,1fr);
+}

@@ -1,0 +1,41 @@
+.perfiles{
+    height: 100vh;
+    background: $colorFondoPerfiles;
+    color: $colorTextPerfiles;
+    .logo{
+        height: 10vh;
+    }
+    .content{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .users{
+            margin: 0 auto;
+            grid-gap: 2rem 1rem;
+            text-align: center;
+            @include gridColumn(2);
+            .user{
+                padding: 0 .5rem;
+
+                .imageUser{
+                    width: 25vw;
+                    height: 25vw;
+                    border-radius: 5px;
+                }
+                h2{
+                    font-size: 1rem;
+                    font-weight: 100;
+                }
+                .iconLocked{
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
