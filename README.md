@@ -1,4 +1,4 @@
 # Netflix-clone
 página web
 
-https://MenteCuriosa.github.io/Netflix-clone/
+https://cogdiver.github.io/Netflix-clone/
